@@ -12,3 +12,4 @@ public class ExceptionHandlingCalculator {
         System.out.println("Program finished successfully!");
     }
 }
+
