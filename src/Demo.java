@@ -1,7 +1,15 @@
-public class Demo {
+import java.util.Scanner;
+
+class Demo{
     public static void main(String[] args){
-        double percentage = 1232131.123123;
-        System.out.printf("Percentage : %.2f",percentage);
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int temp = a ;
+        a = b  ;
+        b = temp ;
+        System.out.println(a) ;
+        System.out.println(b) ;
 
     }
 }
